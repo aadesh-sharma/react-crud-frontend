@@ -9,6 +9,10 @@ FullStackApp is a web application built with Spring Boot for the backend and Rea
 - [Getting Started](#getting-started)
 
 ## Features
+- User creation
+- User update
+- User delete
+- User List
 
 - **Spring Boot Backend:**
   - RESTful API endpoints.
@@ -36,9 +40,20 @@ Before you begin, ensure you have met the following requirements:
 Follow these steps to set up and run the FullStackApp locally:
 
 1. Clone the backend repository:
+https://github.com/aadesh-sharma/springboot-crud-backend.git
 
+2. Clone the Frontend repository:
+https://github.com/aadesh-sharma/react-crud-frontend.git
 
-1. Clone the Frontend repository:
+############# For backend only
+3. Change db username passowrd in application.properties file.
+4. Create Database named as todo or you an change it from  application.properties file.
+5. Run the TodoApplication file.
+
+############# For fronted only
+6. Run the command npm install
+7. Run npm start
+
 
   
 
